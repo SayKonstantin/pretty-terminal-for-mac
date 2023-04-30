@@ -27,7 +27,9 @@ Gruvbox —
 
 ### 2. Oh-my-zsh
 > — framework for managing your zsh configuration
-1. Download: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+1. Download:
+
+   `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 2. Install theme for Oh-my-zsh — **powerlevel10k**:
 

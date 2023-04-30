@@ -1,6 +1,8 @@
 ### Good-looking terminal for Mac
 
-
+<p align="center">
+  <img src="images/after.png" width="600" title="hover text">
+</p>
 
 Two steps
 

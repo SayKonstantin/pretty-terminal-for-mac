@@ -37,22 +37,21 @@ Gruvbox —
 
 3. Add plugins:
 
-**Autosuggestions**:
+**Autosuggestions:**
+
+   * `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+   * Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc): `plugins=(other plugins... zsh-autosuggestions)` (by spaces)
+   * Start a new terminal session.
 
 
-* `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-* Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc): `plugins=(other plugins... zsh-autosuggestions)` (by spaces)
-* Start a new terminal session.
-
-
-   **zsh-syntax-highlighting:**
+**zsh-syntax-highlighting:**
 
 * `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git`
 * `echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc`
 * `source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
 
 
-  **google search from terminal:**
+**google search from terminal:**
 * nano .zshrc and add in plugins field:
 `web-search`
 
